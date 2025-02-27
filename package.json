@@ -1,10 +1,11 @@
 {
-  "name": "headless-chrome-crawler",
+  "name": "karienima-hecc",
   "version": "1.8.0",
-  "description": "Distributed web crawler powered by Headless Chrome",
+  "description": "Perangkak web berbentuk nirkepala untuk Proyek Karienima",
   "main": "index.js",
   "license": "MIT",
   "author": "Yuji Isobe",
+  "type": "module",
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "greenkeeper-lockfile-update": "greenkeeper-lockfile-update",
@@ -18,41 +19,42 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yujiosaka/headless-chrome-crawler.git"
+    "url": "git+https://github.com/karienima/karienima-hecc.git"
   },
   "bugs": {
-    "url": "https://github.com/yujiosaka/headless-chrome-crawler/issues"
+    "url": "https://github.com/karienima/karienima-hecc/issues"
   },
-  "homepage": "https://github.com/yujiosaka/headless-chrome-crawler#readme",
+  "homepage": "https://github.com/karienima/karienima-hecc#readme",
   "dependencies": {
-    "debug": "3.1.0",
-    "jquery": "3.5.1",
-    "lodash": "4.17.20",
-    "puppeteer": "1.20.0",
+    "debug": "4.4.0",
+    "jquery": "3.7.1",
+    "lodash": "4.17.21",
+    "npm-check": "^6.0.1",
+    "puppeteer": "^24.3.0",
     "request": "2.88.2",
     "request-promise": "4.2.6",
-    "robots-parser": "1.0.2"
+    "robots-parser": "3.0.1"
   },
   "peerDependencies": {
     "redis": "2.8.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "7.0.0",
-    "@commitlint/config-conventional": "7.0.0",
-    "@types/debug": "0.0.30",
-    "@types/lodash": "4.14.162",
-    "@types/node": "10.3.4",
-    "@types/puppeteer": "1.20.0",
-    "@types/request-promise": "4.1.46",
-    "eslint": "5.0.1",
-    "eslint-config-airbnb": "17.0.0",
-    "eslint-plugin-import": "2.13.0",
+    "@commitlint/cli": "19.7.1",
+    "@commitlint/config-conventional": "19.7.1",
+    "@types/debug": "4.1.12",
+    "@types/lodash": "4.17.15",
+    "@types/node": "22.13.5",
+    "@types/puppeteer": "7.0.4",
+    "@types/request-promise": "4.1.51",
+    "eslint": "9.21.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "2.31.0",
     "greenkeeper-lockfile": "1.15.1",
-    "husky": "0.14.3",
+    "husky": "9.1.7",
     "jest": "23.1.0",
-    "mime": "2.3.0",
-    "redis": "2.8.0",
-    "typescript": "2.7.2"
+    "mime": "4.0.6",
+    "redis": "4.7.0",
+    "typescript": "^5.7.3"
   },
   "keywords": [
     "headless",
@@ -67,5 +69,6 @@
   ],
   "engines": {
     "node": ">=8.10.0"
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }

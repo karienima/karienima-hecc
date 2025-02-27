@@ -1,3 +1,3 @@
-module.exports = {
-  extends: ['@commitlint/config-conventional'],
-};
+// Konfigurasi untuk ES6
+const commitLintConfig = { extends: ['@commitlint/config-conventional'] };
+export default commitLintConfig;

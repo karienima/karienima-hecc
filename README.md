@@ -1,11 +1,10 @@
-# Headless Chrome Crawler [![npm](https://badge.fury.io/js/headless-chrome-crawler.svg)](https://www.npmjs.com/package/headless-chrome-crawler) [![build](https://circleci.com/gh/yujiosaka/headless-chrome-crawler/tree/master.svg?style=shield&circle-token=ba45f930aed7057b79f2ac09df6be3e1b8ee954b)](https://circleci.com/gh/yujiosaka/headless-chrome-crawler/tree/master) [![Greenkeeper badge](https://badges.greenkeeper.io/yujiosaka/headless-chrome-crawler.svg)](https://greenkeeper.io/)
+# karienima-hecc
 
-###### [API](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/API.md) | [Examples](https://github.com/yujiosaka/headless-chrome-crawler/tree/master/examples) | [Tips](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/TIPS.md) | [Code of Conduct](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/CODE_OF_CONDUCT.md) | [Contributing](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/CONTRIBUTING.md) | [Changelog](https://github.com/yujiosaka/headless-chrome-crawler/blob/master/docs/CHANGELOG.md)
+Perangkak web berbentuk nirkepala (_headless_) yang mendukung ESM untuk Proyek Karienima.
 
-Distributed crawler powered by Headless Chrome
+Akan segera mendatang!
 
-<img src="https://user-images.githubusercontent.com/2261067/36531211-81d54840-1800-11e8-8aa7-019c777712bf.png" height="300" align="right">
-
+<!--
 ## Features
 
 Crawlers based on simple requests to HTML files are generally fast. However, it sometimes ends up capturing empty bodies, especially when the websites are built on such modern frontend frameworks as [AngularJS](https://angularjs.org), [React](https://reactjs.org) and [Vue.js](https://jp.vuejs.org/index.html).
@@ -113,3 +112,4 @@ This crawler is built on top of [Puppeteer](https://github.com/GoogleChrome/pupp
 [Puppeteer](https://github.com/GoogleChrome/puppeteer) provides low to mid level APIs to manupulate Headless Chrome, so you can build your own crawler with it. This way you have more controls on what features to implement in order to satisfy your needs.
 
 However, most crawlers requires such common features as following links, obeying [robots.txt](https://developers.google.com/search/reference/robots_txt) and etc. This crawler is a general solution for most crawling purposes. If you want to quickly start crawling with Headless Chrome, this crawler is for you.
+-->
